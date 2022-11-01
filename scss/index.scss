@@ -1,0 +1,75 @@
+@use "../partials/color" as *;
+
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&display=swap");
+
+body {
+  font-family: "Bodoni Moda", serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  background-color: $light-brown;
+  color: $beige;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $beige;
+
+  &__logo {
+    & img {
+      width: 8rem;
+    }
+  }
+
+  &__links {
+    display: flex;
+    & li {
+      list-style: none;
+      margin: 0 1rem;
+      & a:hover {
+        border-bottom: solid $black 2px;
+      }
+    }
+  }
+}
+
+.header {
+  background-color: $beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 5rem 5rem 10rem;
+
+  &__wrapper {
+    &_info {
+      text-align: center;
+    }
+
+    &_img {
+      & img {
+        width: 30rem;
+        height: 20rem;
+        object-fit: cover;
+      }
+    }
+  }
+  & h1 {
+    margin: 0;
+  }
+}
