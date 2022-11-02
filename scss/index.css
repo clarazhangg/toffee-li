@@ -62,7 +62,7 @@ button {
 }
 
 .display {
-  padding: 3rem 4rem;
+  padding: 3rem 4rem 5rem;
 }
 .display h2 {
   text-align: center;
@@ -82,4 +82,42 @@ button {
   height: 10rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: rgb(244, 243, 238);
+}
+.quote h3 {
+  justify-content: flex-end;
+}
+
+.signup {
+  margin: 5rem 9rem;
+  background-color: rgb(241, 218, 191);
+  border-radius: 1rem;
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.signup h3 {
+  margin: 0;
+}
+.signup p {
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(244, 243, 238);
+  text-align: center;
+  font-size: 0.6rem;
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 2rem;
 }/*# sourceMappingURL=index.css.map */

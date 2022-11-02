@@ -75,7 +75,7 @@ button {
 }
 
 .display {
-  padding: 3rem 4rem;
+  padding: 3rem 4rem 5rem;
 
   & h2 {
     text-align: center;
@@ -96,4 +96,46 @@ button {
       object-fit: cover;
     }
   }
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: $beige;
+
+  & h3 {
+    justify-content: flex-end;
+  }
+}
+
+.signup {
+  margin: 5rem 9rem;
+  background-color: $light-yellow;
+  border-radius: 1rem;
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  & h3 {
+    margin: 0;
+  }
+
+  & p {
+    margin: 0;
+  }
+}
+
+footer {
+  background-color: $beige;
+  text-align: center;
+  font-size: 0.6rem;
+  letter-spacing: 0.5px;
+
+  margin: 0;
+  padding: 2rem;
 }
